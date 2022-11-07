@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;900&display=swap');
+
+@import url("./home/home.css");
+@import url("./about/about.css");
+
+
+
+/* All common css rules should be written in the main index css file */
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    background-color: rgb(183 201 243 / 89%);
+    margin: 2% 7% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    
+}
+
+
+
+h2{
+	font-size: 52px !important;
+}
+
+h3{
+	font-size: 29px !important;
+	font-weight: 200 !important;
+}
+
+#nav-main{
+	display: flex;
+	flex-direction: row;
+	gap: 37px;
+}
+
+
+
+#nav-main > a {
+	text-decoration: none;
+	color: black;
+}
+
+#nav-main > a:visited{
+	color: black;
+}
+
+
+#top{
+	display: flex;
+	justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

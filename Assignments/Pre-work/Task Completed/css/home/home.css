@@ -1,0 +1,127 @@
+#main-home{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 2em;
+/* background-color: rgb(174 192 235 / 89%); */
+padding: 28px;
+/* border-radius: 11px 48px; */
+
+background: rgba( 220, 217, 217, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+#main-home1  img{
+    position: relative;
+    border-radius: 50px;
+}
+
+/* sub divs positions */
+#main-home :nth-child(-n + 2){
+    flex-grow: 1;
+    
+}
+
+/* image size */
+#main-home :nth-child(-n + 1){
+    max-width: fit-content;
+    
+}
+
+/* second div's content */
+#main-home2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    width: 70%;
+    align-items: flex-start;
+    gap: 0.4em;
+    align-self: center;
+    
+}
+
+
+#main-home :nth-child(2) :nth-child(2){
+display: contents;
+}
+
+
+#main-home :nth-last-child(1){
+    flex-grow: 4;
+}
+
+
+#main-home3{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#main-home3 p{
+    font-size: 30px;
+    
+}
+
+#main-home3 ul{
+    flex-direction: column;
+    gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 1em;
+    font-size: 21px;
+}
+
+#favlist :nth-child(1)::after{
+    content: '▼';
+    
+}
+
+#form-main{
+    max-width: fit-content;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    gap: 20px;
+    background-image: linear-gradient(35deg,#d367c1 10%,#dedf40 25%,#62cb5c 50%,#00bbcb 75%,#ab79d6 90%);
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+#form-submit{
+    
+
+    background-color: #c36b20;
+    color: aliceblue;
+    font-family: 'Poppins';
+    padding: 5px 20px 5px 20px;
+    border-radius: 16px;
+    border: 1px transparent solid;
+    margin-left: 23px;
+    margin-right: 10px;
+}
+
+
+
+#form-radio{
+    line-height: 23px;
+}
+
+#form-NS input{
+    padding: 5px;
+    border: 1px transparent solid !important;
+    border-radius: 5px;
+}
+
+#form-NS label{
+    line-height: 23px;
+}
+
+#form-NS{
+    padding-left: 10px;
+}
