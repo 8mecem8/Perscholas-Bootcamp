@@ -1,0 +1,59 @@
+body {
+    background-color: #faf2e4;
+    margin: 0 20%;
+    font-family: sans-serif;		
+}
+
+header{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #57b1dc;
+    margin-top: 30px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    
+    
+}	
+h1:hover{
+    color: crimson;
+}
+
+
+
+h2 {
+    color: #d1633c;
+    font-size: 1em;
+}
+
+
+/*----- CSS button Click -----*/
+#btnControl{
+    display: none;
+}
+
+#btnControl:checked + label > img:nth-child(1){
+    display: none;
+}
+
+#btnControl:checked + label > img:nth-child(2){
+    display: block !important;
+    filter: sepia(1);
+    mix-blend-mode: darken;
+    margin: 0 auto;
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    transform: translate3d(-25px, 9px, 0px);
+}
+
+/*----- CSS button Click -----*/
+
+
