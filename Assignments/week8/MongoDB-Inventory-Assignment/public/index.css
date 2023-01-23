@@ -1,0 +1,47 @@
+body{
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  background-color: rgb(186, 150, 247);
+
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(213, 195, 245);
+  height: 90vh;
+  width: 52vw;
+  border-radius: 16px;
+}
+
+li{list-style: none;}
+
+
+
+
+#mainContainer{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#Data-main-wrapper, #Data-create-wrapper{display: flex;flex-direction: column;justify-self: center;}
+#Data-main-wrapper{grid-column: 1/4; padding-left: 18px;}
+
+
+
+#Data-display,#veggie-display{flex-grow: 3;}
+
+#contain  p {width: fit-content;user-select: none;font-size: 14px; font-weight: 600;}
+#contain  p:hover {background: #54ddd6; border-radius: 4px;  width: fit-content; cursor: pointer;;user-select: none;font-size: 14px; font-weight: 600;}
+
+#data-create{display: flex;flex-direction: column;width: 40%;align-items: center;flex-grow: 1;align-self: center;}
+
+.inputcontain {margin: 5px;font-family: system-ui;font-weight: 600;}
+
+input[type="date"]{width: 170px;}
