@@ -1,0 +1,101 @@
+.main-loading
+{
+  color: aliceblue;
+    display: flex;
+    place-content: center;
+    margin: auto auto;
+    /* padding: 10rem; */
+    font-family: 'Starjedi';
+    font-size: 10rem;
+    margin: 10rem 0
+    ;
+}
+
+
+.title,.ship-title {
+  text-align: center;
+  margin-top: 0;
+  padding: 10px 10px;
+  background-color: rgb(0, 0, 0);
+  color: yellow;
+  font-family: Starjhol;
+  font-size: 5rem;
+  line-height: 5rem;
+  user-select: none;
+  letter-spacing: 3rem;
+}
+
+.cards-container,.ship-details-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  place-items: center;
+  margin: 10px 0;
+
+}
+
+.ship-card:hover
+{
+  background-color: rgb(26 48 245 / 46%);
+}
+
+.cards-container{
+  flex-direction: row;
+}
+
+
+.ship-card, .ship-details-card {
+  display: flex;
+    flex-direction: column;
+    background-color: rgb(44 53 139 / 37%);
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: inset 1px 1px 15px 1px #2c2cef;
+    font-family: Starjedi;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #d3dbe1;
+  
+}
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+
+}
+
+.ship-details-container button 
+{
+  box-shadow: inset 1px 1px 15px 1px #2c2cef;
+  background-color: rgb(44 53 139 / 37%);
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  place-self: center;
+}
+
+.ship-details-container button a
+{
+  text-decoration:none;
+}
+
+.details-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(62, 99, 88);
+  max-width: 300px;
+  min-width: 400px;
+  max-height: 100px;
+  min-height: 250px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 0px 20px;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
