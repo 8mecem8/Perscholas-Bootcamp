@@ -1,0 +1,30 @@
+#dashboard-container
+{
+    max-width: 90%;
+    padding: 40px;
+}
+
+
+#dashboard-container h1
+{
+    text-align: left;
+}
+
+
+#stocks-container
+{
+    display: flex;
+    gap:40px;
+    flex-wrap: wrap;
+}
+
+#stocks-container div
+{
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#stocks-container div:hover
+{
+    background: rgb(255, 237, 216);
+}

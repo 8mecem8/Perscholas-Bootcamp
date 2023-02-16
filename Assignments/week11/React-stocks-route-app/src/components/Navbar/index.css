@@ -1,0 +1,31 @@
+nav
+{
+    padding: 20px 0;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    min-width: 100%;
+    
+}
+
+
+nav button
+{
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: 1px transparent solid;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+nav button:hover
+{   
+
+    scale:1.1;
+    letter-spacing: 2px;
+
+}
